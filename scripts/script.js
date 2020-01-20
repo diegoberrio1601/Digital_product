@@ -1,8 +1,5 @@
-// var a=1;
-// var b=2;
-// var nombre="Rulótico";
-// var apellido="González";
-//
-// var nombreCompleto=nombre+" "+apellido;
-//
-// alert("Holi "+nombreCompleto);
+const ramdon = Math.random() <= 0.25
+
+if (ramdon > 0.19) {
+    document.getElementById("respuesta").action = "exito.html";
+}
